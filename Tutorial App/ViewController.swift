@@ -14,6 +14,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var theLabel: UILabel!
     
+    
+    //Stuff for the hello world label
     @IBAction func buttonTapped(_ sender: Any) {
         times += 1
         theLabel.text = "Changed text from Swift!"
@@ -21,6 +23,7 @@ class ViewController: UIViewController {
 
     }
     
+    //Button stuff
     @IBAction func coolButton(_ sender: Any) {
         theLabel.text = "Buttons are cool!"
     }
